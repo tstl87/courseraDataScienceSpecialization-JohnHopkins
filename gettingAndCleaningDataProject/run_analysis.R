@@ -42,11 +42,10 @@ select_data$activity_code <- activities[select_data$activity_code, 2]
 
 # 4. Appropriately labels the data set with descriptive variable names.
 names(select_data)[2] = "activity"
-names(select_data)<-gsub("Acc", "accelerometer", names(select_data))
-names(select_data)<-gsub("BodyBody", "body", names(select_data))
-names(select_data)<-gsub("Gyro", "gyroscope", names(select_data))
-names(select_data)<-gsub("Mag", "magnitude", names(select_data))
-names(select_data)<-gsub("tBody", "timeBody", names(select_data))
+names(select_data)<-gsub("Acc", "Accelerometer", names(select_data))
+names(select_data)<-gsub("BodyBody", "Body", names(select_data))
+names(select_data)<-gsub("Gyro", "Gyroscope", names(select_data))
+names(select_data)<-gsub("Mag", "Magnitude", names(select_data))
 names(select_data)<-gsub("^f", "frequencyDomainSignal", names(select_data))
 names(select_data)<-gsub("^t", "time", names(select_data))
 names(select_data)<-gsub("-freq()", "Frequency", names(select_data), ignore.case = TRUE)
