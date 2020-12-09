@@ -57,7 +57,7 @@ names(select_data)<-gsub("-std()", "StandardDeviation", names(select_data), igno
 # of each variable for each activity and each subject.
 
 output <- select_data %>%
-  group_by(subject, activity) %>%
-  summarise_all(funs(mean))
+group_by(subject, activity) %>%
+summarise_all(funs(mean))
 
-write.csv(output, "tidydata.csv", row.names = FALSE)
+write.table(output, "tidydata.txt", row.names = FALSE)
