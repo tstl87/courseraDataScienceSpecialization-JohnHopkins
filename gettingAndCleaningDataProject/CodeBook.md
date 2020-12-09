@@ -9,35 +9,35 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-timeBodyAccelerometer-XYZ
-timeGravityAccelerometer-XYZ
-timeBodyAccelerometerJerk-XYZ
-timeBodyGyroscope-XYZ
-timeBodyGyroscopeJerk-XYZ
-timeBodyAccelerometerMagnitude
-timeGravityAccelerometerMagnitude
-timeBodyAccelerometerJerkMagnitude
-timeBodyGyroscopeMagnitude
-timeBodyGyroscopeJerkMagnitude
-frequencyDomainSignalBodyAccelerometer-XYZ
-frequencyDomainSignalBodyAccelerometerJerk-XYZ
-frequencyDomainSignalBodyGyroscope-XYZ
-frequencyDomainSignalBodyAccelerometerMagnitude
-frequencyDomainSignalBodyAccelerometerJerkMagnitude
-frequencyDomainSignalBodyGyroscopeMagnitude
-frequencyDomainSignalBodyGyroscopeJerkMagnitude
+*timeBodyAccelerometer-XYZ
+*timeGravityAccelerometer-XYZ
+*timeBodyAccelerometerJerk-XYZ
+*timeBodyGyroscope-XYZ
+*timeBodyGyroscopeJerk-XYZ
+*timeBodyAccelerometerMagnitude
+*timeGravityAccelerometerMagnitude
+*timeBodyAccelerometerJerkMagnitude
+*timeBodyGyroscopeMagnitude
+*timeBodyGyroscopeJerkMagnitude
+*frequencyDomainSignalBodyAccelerometer-XYZ
+*frequencyDomainSignalBodyAccelerometerJerk-XYZ
+*frequencyDomainSignalBodyGyroscope-XYZ
+*frequencyDomainSignalBodyAccelerometerMagnitude
+*frequencyDomainSignalBodyAccelerometerJerkMagnitude
+*frequencyDomainSignalBodyGyroscopeMagnitude
+*frequencyDomainSignalBodyGyroscopeJerkMagnitude
 
 The set of variables that were estimated from these signals are: 
 
-mean(): Mean value
-std(): Standard deviation
+*mean(): Mean value
+*std(): Standard deviation
 
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
-gravityMean
-timeBodyAccelerometerMean
-timeBodyAccelerometerJerkMean
-timeBodyGyroscopeMean
-timeBodyGyroscopeJerkMean
+*gravityMean
+*timeBodyAccelerometerMean
+*timeBodyAccelerometerJerkMean
+*timeBodyGyroscopeMean
+*timeBodyGyroscopeJerkMean
 
 Finally the activity and subject features contains the activity the subject is doing walking, walking upstairs, walking downstairs, sitting, standing, or laying and which subject is performing the action, respectively.
